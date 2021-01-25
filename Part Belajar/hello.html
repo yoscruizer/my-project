@@ -1,22 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Aplikasi Vue part 1</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Aplikasi Vue JS Pemula</title>
+
     <script src="https://cdn.jsdelivr.net/npm/vue"></script>
 </head>
 <body>
-	<div id="app">
-		{{ message }}
-	</div>
 
+<div id="app">
+	{{ message }}
+</div>
+	
 	<script>
 		var app = new Vue({
 			el : "#app",
 			data : {
-				message : "Hello World"
+				message : "Hello world!!"
 			}
-		});		
+		})
 	</script>
-
 </body>
 </html>
